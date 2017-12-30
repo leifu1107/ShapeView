@@ -26,7 +26,7 @@
 |sStrokeColor|边框颜色|0x20000000		|color	
 |sSizeWidth|shape的宽度|0dp	|dimension	
 |sSizeHeight|shape的高度|0dp	|dimension	
-|sGradientType|渐变的种类 <br>linear(线型)<br>radial(射线)<br>sweep(打扫)	|enum	
+|sGradientType|渐变的种类 <br>linear(线型)<br>radial(射线)<br>sweep(打扫)|linear(线型)	|enum	
 |sGradientOrientation|渐变方向 <br>TOP_BOTTOM(上下)<br>TR_BL(椭圆形)<br>RIGHT_LEFT(线型)<br>BR_TL(环形)|BOTTOM_TOP(矩形)	|BL_TR(矩形)|LEFT_RIGHT(矩形)|TL_BR(矩形)|enum	
 |sGradientAngle|渐变角度|0dp	|dimension	
 |sGradientCenterX|渐变x中心|0dp	|dimension	
