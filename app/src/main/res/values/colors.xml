@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 白色 -->
+    <color name="white">#FFF</color>
+    <color name="common_pressed">#20000000</color>  <!--白色背景按下去的颜色-->
+    <color name="line">#e8e8e8</color>
+
+    <!--transparent-->
+    <color name="transparent">#00000000</color>
+
+    <!--red-->
+    <color name="red">#dd0000</color>
+
+    <!--black-->
+    <color name="black">#000000</color>
+
+    <!--yellow-->
+    <color name="yellow">#ff9900</color>
+
+    <!--Green-->
+    <color name="green">#009900</color>
+
+    <!--Pink-->
+    <color name="pink">	#FFC0CB</color>
+
+    <!--gray-->
+    <color name="gray">#BEBEBE</color>
+
+    <!--blue-->
+    <color name="blue">#19bbf7</color>
+
+    <!--purple-->
+    <color name="purple">#6844d3</color>
+
+
+</resources>

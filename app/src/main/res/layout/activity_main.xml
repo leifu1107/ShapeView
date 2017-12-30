@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="leifu.shapeview.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:text="绿色圆角10dp"
+                app:sCorners="10dp"
+                app:sSolidColor="@color/green"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:text="左右全圆角"
+                app:sCorners="50dp"
+                />
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:text="圆角边框"
+                app:sCorners="10dp"
+                app:sSolidColor="@color/white"
+                app:sStrokeColor="@color/red"
+                app:sStrokeWidth="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:text="圆角虚线"
+                app:sCorners="10dp"
+                app:sSolidColor="@color/white"
+                app:sStrokeDashGap="4dp"
+                app:sStrokeDashWidth="3dp"
+                app:sStrokeWidth="2dp"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_margin="5dp"
+                android:text="椭圆oval"
+                app:sShapeType="oval"
+                app:sSolidColor="@color/yellow"
+                app:sStrokeColor="@color/red"
+                app:sStrokeDashGap="4dp"
+                app:sStrokeDashWidth="3dp"
+                app:sStrokeWidth="2dp"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="圆"
+                app:sShapeType="oval"
+                app:sSolidColor="@color/yellow"
+                app:sStrokeColor="@color/red"
+                app:sStrokeWidth="2dp"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:text="线line"
+                app:sShapeType="line"
+                app:sStrokeColor="@color/green"
+                app:sStrokeDashGap="15dp"
+                app:sStrokeDashWidth="1dp"
+                app:sStrokeWidth="2dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="左上圆角"
+                android:textSize="10sp"
+                app:sCornersTopLeft="10dp"
+                app:sSolidColor="@color/red"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:text="右上圆角"
+                android:textSize="10sp"
+                app:sCornersTopRight="10dp"
+                app:sSolidColor="@color/blue"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="两个圆角"
+                android:textSize="10sp"
+                app:sCornersTopLeft="20dp"
+                app:sCornersTopRight="20dp"
+                app:sSolidColor="@color/pink"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:text="左下圆角"
+                android:textSize="10sp"
+                app:sCornersBottomLeft="10dp"
+                app:sSolidColor="@color/purple"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:text="右下圆角"
+                android:textSize="10sp"
+                app:sCornersBottomRight="10dp"
+                app:sSolidColor="@color/yellow"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="两个圆角"
+                android:textSize="10sp"
+                app:sCornersBottomLeft="20dp"
+                app:sCornersBottomRight="20dp"
+                app:sSolidColor="@color/colorAccent"/>
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/search"
+                />
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:hint="EditText(如搜索)"
+                app:isEditText="true"
+                app:sCorners="40dp"/>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="下到上"
+                android:textSize="10sp"
+                app:sGradientEndColor="@color/yellow"
+                app:sGradientOrientation="BOTTOM_TOP"
+                app:sGradientStartColor="@color/blue"
+                app:sGradientType="linear"
+                app:sSolidColor="@color/purple"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="上到下"
+                android:textSize="10sp"
+                app:sGradientEndColor="@color/yellow"
+                app:sGradientOrientation="TOP_BOTTOM"
+                app:sGradientStartColor="@color/blue"
+                app:sGradientType="linear"
+                app:sSolidColor="@color/purple"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="左到右"
+                android:textSize="10sp"
+                app:sGradientEndColor="@color/yellow"
+                app:sGradientOrientation="LEFT_RIGHT"
+                app:sGradientStartColor="@color/blue"
+                app:sGradientType="linear"
+                app:sSolidColor="@color/purple"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="80dp"
+                android:layout_height="50dp"
+                android:text="右到左"
+                android:textSize="10sp"
+                app:sGradientEndColor="@color/yellow"
+                app:sGradientOrientation="TOP_BOTTOM"
+                app:sGradientStartColor="@color/blue"
+                app:sGradientType="linear"
+                app:sSolidColor="@color/purple"/>
+        </LinearLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:mrl_rippleColor="@color/black"
+            app:mrl_rippleOverlay="true"
+            app:mrl_rippleRoundedCorners="50dp">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:text="点击按钮实现Ripple效果"
+                app:sCorners="50dp"
+                app:sSolidColor="@color/blue"
+                />
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="按压变色"
+                android:textColor="@color/white"
+                app:sCorners="5dp"
+                app:sNormalColor="@color/pink"
+                app:sPressedColor="@color/green"
+                app:sUseSelector="true"/>
+
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:enabled="false"
+                android:text="不可点击颜色"
+                android:textColor="@color/white"
+                app:sCorners="5dp"
+                app:sDisableColor="@color/yellow"
+                app:sNormalColor="@color/pink"
+                app:sPressedColor="@color/green"
+                app:sUseSelector="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
