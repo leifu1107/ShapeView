@@ -1,5 +1,5 @@
 # ShapeView
-打造万能shape,再也不用写很多xml了
+打造万能shape,再也不用写很多xml了,可以当做TextView,Button,EditText等多种控件,方便实用
 
 
 #### 效果图
@@ -57,7 +57,43 @@
 	        compile 'com.github.leifu1107:ShapeView:1.0'
 	}
 ```
+### Step 2项目中如何使用
+#### 2.1、布局中如何使用（示例中只列出部分属性，开发者可根据具体需求使用其他属性）
+```
+            <leifu.shapelibrary.ShapeView
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:text="两个圆角"
+                android:textSize="10sp"
+                app:sCornersBottomLeft="20dp"
+                app:sCornersBottomRight="20dp"
+                app:sSolidColor="@color/colorAccent"/>
+        注意：
+                1、设置 isEditText="true"可以变成eidttext,可以输入内容
+                2、采用了一个第三方com.balysv:material-ripple:1.0.2 实现水波效果
+```
+#### 2.2、代码中如何使用
+```
+       /**
+     * 可以通过链式设置大部分常用的属性值
+     */
 
+                
+   shapeView.setShapeCorners(20)
+                .setShapeCornersTopLeft(20)
+                .setShapeCornersBottomLeft(20)
+                .setShapeCornersTopRight(20)
+                .setShapeCornersBottomRight(20)
+                .setShapeStrokeColor(getResources().getColor(R.color.colorPrimary))
+                .setShapeStrokeWidth(1)
+                .setShapeSrokeDashWidth(1)
+                .setShapeStrokeDashGap(5)
+                .setShapeSolidColor(getResources().getColor(R.color.white))
+                .setShapeSelectorNormalColor(getResources().getColor(R.color.red_btn))
+                .setShapeSelectorPressedColor(getResources().getColor(R.color.gray))
+                .useShape();//设置完各个参数之后这句调用才生效
+```
  ## APK文件
 
 扫描二维码 或者 点击二维码 下载
