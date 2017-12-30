@@ -54,7 +54,7 @@
  /app/build.gradle
   ```java
   	dependencies {
-	        compile 'com.github.leifu1107:ViewpagerTransformer:V1.0'
+	        compile 'com.github.leifu1107:ShapeView:1.0'
 	}
 ```
 
