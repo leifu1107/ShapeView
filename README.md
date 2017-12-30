@@ -27,7 +27,7 @@
 |sSizeWidth|shape的宽度|0dp	|dimension	
 |sSizeHeight|shape的高度|0dp	|dimension	
 |sGradientType|渐变的种类 <br>linear(线型)<br>radial(射线)<br>sweep(打扫)|linear(线型)	|enum	
-|sGradientOrientation|渐变方向 <br>TOP_BOTTOM(上下)<br>TR_BL(右上左下)<br>RIGHT_LEFT(右左)<br>BR_TL(下右上左)<br>BOTTOM_TOP(下上)	|BL_TR(下左上右)<br>LEFT_RIGHT(左右)<br>TL_BR(上左下右)||enum	
+|sGradientOrientation|渐变方向 <br>TOP_BOTTOM(上下)<br>TR_BL(右上左下)<br>RIGHT_LEFT(右左)<br>BR_TL(下右上左)<br>BOTTOM_TOP(下上)	<br>BL_TR(下左上右)<br>LEFT_RIGHT(左右)<br>TL_BR(上左下右)||enum	
 |sGradientAngle|渐变角度|0dp	|dimension	
 |sGradientCenterX|渐变x中心|0dp	|dimension	
 |sGradientCenterY|渐变y中心|0dp	|dimension	
