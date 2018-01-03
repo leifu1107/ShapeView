@@ -72,6 +72,7 @@
         注意：
                 1、设置 isEditText="true"可以变成eidttext,可以输入内容
                 2、采用了一个第三方com.balysv:material-ripple:1.0.2 实现水波效果
+		3.如果text显示不全,可能因为你设置字体过大或者设置padding=0(去除系统默认padding)
 ```
 #### 2.2、代码中如何使用
 ```
