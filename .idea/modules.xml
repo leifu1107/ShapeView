@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ShapeView.iml" filepath="$PROJECT_DIR$/ShapeView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShapeView.iml" filepath="$PROJECT_DIR$/ShapeView.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shapelibrary/shapelibrary.iml" filepath="$PROJECT_DIR$/shapelibrary/shapelibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/shapelibrary/shapelibrary.iml" filepath="$PROJECT_DIR$/shapelibrary/shapelibrary.iml" />
     </modules>
   </component>
