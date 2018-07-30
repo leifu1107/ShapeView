@@ -54,7 +54,7 @@
  /app/build.gradle
   ```java
   	dependencies {
-	        compile 'com.github.leifu1107:ShapeView:1.0'
+	        compile 'com.github.leifu1107:ShapeView:1.0.1'
 	}
 ```
 ### Step 2项目中如何使用
